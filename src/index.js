@@ -1,6 +1,7 @@
 
 const math_functions = require('./mathfunctions/index');
 const module_os = require('./moduleOS/index');
+const fs = require('./module_files_systems/index');
 
 function main(){
     console.log ("===>   main ");
