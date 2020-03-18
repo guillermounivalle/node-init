@@ -1,6 +1,6 @@
 
 const math_functions = require('./mathfunctions/index');
-
+const module_os = require('./moduleOS/index');
 
 function main(){
     console.log ("===>   main ");
@@ -10,6 +10,8 @@ function main(){
     console.log ("División ===> "+ math_functions.divide(6,2));
     console.log ("División ===> "+ math_functions.divide(6,0));
     console.log(math_functions);
+
+    module_os.os_functions();
   }
   
   main();
